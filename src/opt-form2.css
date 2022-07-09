@@ -1,0 +1,63 @@
+.h1_forOptForm2{
+    color: white;
+    max-width: 640px;
+    font-weight: 500;
+    margin: auto;
+    font-size: 50px;
+}
+
+.container_forOpt2{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 8px solid solid #222;
+    text-align: center;
+    padding: 165px 45px;
+
+}
+@media (max-width: 600px){
+    .h1_forOptForm2{
+        font-size: 35px;
+    }
+}
+
+.h2_forOptForm2{
+    color: white;
+    max-width: 640px;
+    font-weight: 500;
+    margin:16px auto;
+    font-size: 16px;
+
+}
+
+
+@media (max-width: 600px){
+    .h2_forOptForm2{
+        font-size: 18px;
+    }
+}
+
+
+.input_forOptForm2{
+    max-width: 450px;
+    width:22em;
+    border: 0;
+    padding: 10px;
+    height: 45px;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+}
+
+.button_forOptForm2{
+    /* display: flex;
+    align-items: center; */
+    height: 45px;
+    width: 180px;
+    background: #e50914;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    border: 0;
+    cursor: pointer;
+    border-radius: 4px;
+}

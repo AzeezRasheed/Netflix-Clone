@@ -1,0 +1,133 @@
+.nav{
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    height: 60px;
+    z-index: 2;
+    transition: all 0.5s  ease-in;
+}
+
+.nav__black{
+    background-color: #111;
+}
+
+.nav__logo{
+    width: 100px;
+    object-fit: contain;
+    position: fixed;
+    left: 20px;
+}
+
+.nav__avatar{
+    width: 30px;
+    object-fit: contain;
+    position: fixed;
+    right: 20px;
+}
+
+.Dropdown{
+    display: none;
+    position: absolute;
+    background-color: black;
+    padding: 8px;
+    width: 100px;
+    top: 32px;
+    right: 10px;
+    border-radius: 10px;
+}
+
+.Group{
+    margin-bottom: 10px;
+}
+
+.Group:last-of-type {
+    margin-bottom: 0;
+  }
+  
+.TextLink{
+    font-size: 15px;
+    margin-bottom: 0;
+    margin-top: 0;
+    cursor: pointer;
+    color: white;
+}
+
+.Profile:hover > .Dropdown{
+    display: inline-block;
+  }
+
+
+.Links{
+    list-style-type: none;
+    position: fixed;
+}
+ul>li{
+    display: inline;
+    list-style: none;
+    padding: 8px;
+    gap: 2rem;
+  
+  }
+  
+
+.aForNav{
+    color: white;
+    text-decoration: none;
+}
+
+.buttonForNavSearch{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+}
+
+.buttonForNavSearch:focus{
+    outline: none;
+}
+
+.SVG{
+    color: #f34242;
+    font-size: 1.2rem;
+
+}
+
+.search{
+    display: flex;
+    gap: 0.4rem;
+    align-items: center;
+    justify-content: center;
+    padding: 0.2rem;
+    padding-left: 0.5rem;
+    
+}
+
+.inputForNavSearch{
+    width: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+    background-color: transparent;
+    border: none;
+    color: white;
+
+}
+
+.inputForNavSearch:focus{
+    outline: none;
+}
+
+.show-search{
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 0.7rem;
+}
+.inputForNavSearchOn{
+    width: 100%;
+    opacity: 1;
+    visibility: visible;
+   
+}
